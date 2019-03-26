@@ -1,0 +1,30 @@
+{
+  "name": "postfile",
+  "version": "1.0.0",
+  "description": "通过http 的post 请求向服务器发送文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlygame/postfile.git"
+  },
+  "keywords": [
+    "post",
+    "file"
+  ],
+  "author": "charly",
+  "license": "MIT",
+  "bin": {
+    "postfile": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/charlygame/postfile/issues"
+  },
+  "homepage": "https://github.com/charlygame/postfile#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "request": "^2.88.0"
+  }
+}
