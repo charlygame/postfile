@@ -1,6 +1,6 @@
 {
   "name": "postfile-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "通过http 的post 请求向服务器发送文件",
   "main": "index.js",
   "scripts": {
