@@ -49,4 +49,4 @@ const re = request.post({url:UPLOAD_URL, jar: j } ,function(err, httpResponse, b
 const form = re.form();
 form.append('id', 'WU_FILE_1');
 form.append('name', getFileName(program.file));
-form.append('file', fs.createReadStream(__dirname + '\\' +program.file), {filename: getFileName(program.file)});
+form.append('file', fs.createReadStream(program.file), {filename: getFileName(program.file)});
